@@ -1,0 +1,50 @@
+# ==============================================================================
+# Git Ignore - Mining Engineering Contour Mapping Project
+# ==============================================================================
+
+# --- AutoCAD & CAD Working Files / Lock Files ---
+*.bak
+*.dxf.bak
+*.dwg.bak
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+*.err
+plot.log
+acad.err
+
+# --- Surfer & Spatial Software Temp Files ---
+*.srf.bak
+*.grd.bak
+*.tmp
+*.bk?
+
+# --- Redundant / Copy Files ---
+*- Copy.*
+* - Copy.*
+*- Copy (*)
+* - Copy (*)
+
+# --- Microsoft Windows & Office Lock Files ---
+~$*
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# --- Developer / IDE Tooling ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
